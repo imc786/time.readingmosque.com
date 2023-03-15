@@ -54,7 +54,7 @@ section {
 
 section#main {
     width: calc(100vw / 12 * 8);
-    height: calc(100vh / 12 * 8);
+    height: calc(100vh / 12 * 9);
     top: 0;
     left: 0;
     background-color: var(--black);
@@ -74,13 +74,13 @@ section#main img {
 section#prayerbar {
     width: 100%;
     height: calc(100vh / 12 * 3);
-    top: calc(100vh / 12 * 8);
+    top: calc(100vh / 12 * 9);
     background-color: var(--white10);
 }
 
 section#sidebar {
     width: calc(100vw / 12 * 4);
-    height: calc(100vh / 12 * 8);
+    height: calc(100vh / 12 * 9);
     top: 0;
     right: 0;
     background-color: var(--white5);
