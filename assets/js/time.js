@@ -1,6 +1,5 @@
 let now = moment().locale('en-gb');
 // let now = moment('2023-01-01 00:00:01', 'YYYY-MM-DD HH:mm:ss').locale('en-gb'); // TESTING ONLY
-now = moment('2023-03-03 12:39:55', 'YYYY-MM-DD HH:mm:ss').locale('en-gb'); // TESTING ONLY
 
 let starttimes, jamaat, today;
 
@@ -25,8 +24,8 @@ async function fetchJamaat(year) {
 }
 
 async function timeCalc() {
-  // now = moment().locale('en-gb');
-  now = now.locale('en-gb').add(1, 'second'); // TESTING ONLY
+  now = moment().locale('en-gb');
+  // now = now.locale('en-gb').add(1, 'second'); // TESTING ONLY
   nowminus = moment(now).subtract(10, "minutes").locale('en-gb'); // 10 minutes before now is used to show active Jama'at time for 10 minutes from the start of Iqamah
 
   // refresh data every day
