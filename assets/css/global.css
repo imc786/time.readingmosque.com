@@ -85,7 +85,7 @@ section#sidebar {
     right: 0;
     background-color: var(--white5);
     text-align: center;
-    padding-top: 6vh;
+    padding-top: 9vh;
     -webkit-transition: background-color 2s ease-out;
     -moz-transition: background-color 2s ease-out;
     -o-transition: background-color 2s ease-out;
